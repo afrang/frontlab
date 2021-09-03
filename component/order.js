@@ -2,7 +2,7 @@
 export default function orderform({services,host}) {
     const registerUser = async event => {
         event.preventDefault()
-        const res = await fetch('http://localhost:8000/v1/orderlist', {
+        const res = await fetch('https://raziantibody.com/v1/orderlist', {
             body: JSON.stringify({
                  
                         name:event.target.name.value,
