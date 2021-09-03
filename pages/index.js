@@ -83,7 +83,7 @@ export default function Home({services,ServicesGroup,help,Aboutus}) {
               <div className="">
                 <img src={process.env.HOST+datafetch.mainimage.url} width="100" ></img>
                 </div>
-              <h4 className="mt-4"><a href={'/blog/'+datafetch.url}>{ datafetch.name }</a></h4>
+              <h4 className="mt-4"><a target="_blank" href={datafetch.url}>{ datafetch.name }</a></h4>
             </div>
           </div>
           ))}
